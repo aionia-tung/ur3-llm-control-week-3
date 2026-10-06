@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<package format="3">
+
+  <name>ur3_draw_letter</name>
+  <version>0.0.1</version>
+
+  <description>
+    Draw a letter using UR3/UR3e and MoveIt 2
+  </description>
+
+  <maintainer email="linhnguyengp4@gmail.com">
+    Linh
+</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>visualization_msgs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ur_moveit_config</exec_depend>
+  <exec_depend>ur_description</exec_depend>
+  <exec_depend>ur_simulation_gz</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

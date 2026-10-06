@@ -1,0 +1,7 @@
+student_name: "TRAN SON TUNG"
+student_id: "23020770"
+
+zone_mapping:
+  zone_a: red_cube
+  zone_b: blue_cube
+  zone_c: yellow_cube
